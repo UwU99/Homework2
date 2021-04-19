@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:text="Name"
+        android:textColor="#000"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+
+    <EditText
+        android:id="@+id/editName"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:hint="Enter Name" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:text="Code"
+        android:textColor="#000"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editCode"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:hint="Enter Code"
+        android:layout_marginLeft="15dp" />
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Class"
+        android:textStyle="bold"
+        android:textColor="#000"
+        android:textSize="25dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp" />
+    <EditText
+        android:id="@+id/editClass"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:hint="Enter Code"
+        android:layout_marginLeft="15dp" />
+
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <RadioButton
+            android:id="@+id/rbOne"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1st Grade"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/rbTwo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2nd Grade"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+        <RadioButton
+            android:id="@+id/rbThree"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3rd Grade"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+        <RadioButton
+            android:id="@+id/rbFour"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="4th Grade"
+            android:textSize="15dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn"
+            android:textSize="30dp"
+            android:text="Button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/result1"
+            android:text="Your information: "
+            android:textSize="20dp"
+            android:textColor="#000"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/result2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:textColor="#000"/>
+    </RadioGroup>
+
+</LinearLayout>
